@@ -1,0 +1,80 @@
+/* 尾部样式 */
+
+.fy-server{
+    background-color: #fff;
+}
+.fy-server-li{
+    float: left;
+    width: 25%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.fy-server-a{
+    display: block;
+    color: #787878;
+}
+.fy-server-icons{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.fy-server-icons>.iconfont{
+    font-size: 2rem;
+    
+}
+.fy-server-text{
+    vertical-align: middle;
+}
+
+.fy-server-info{
+    padding: 40px 0;
+}
+
+.fy-server-info-dl{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.fy-server-info-dt{
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+.fy-server-info-dd{
+    margin-bottom: 5px;
+}
+.fy-server-info-a{
+    font-size: 0.75rem;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+.fy-server-info-wrapper{
+    width: 83.4%;
+}
+.fy-server-logo {
+    width: 16.6%;
+}
+.fy-copyright{
+    font-size: 0.875rem;
+    text-align:center;
+    color: #999;
+    padding-bottom: 50px;
+}
+
+.fy-copyright-a{
+    color: #787878;
+    padding: 0 15px;
+}
+.fy-copyright-a~.fy-copyright-a{
+    border-left:1px solid #666;
+}
+
+
+
+

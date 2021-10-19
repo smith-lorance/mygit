@@ -1,0 +1,91 @@
+.warp.data-v-1c420219 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 100%;
+}
+.rect.data-v-1c420219 {
+  width: 300rpx;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20rpx;
+}
+.rect .ly-relieve > view.data-v-1c420219 {
+  padding: 20rpx 0;
+}
+.rect .ly-relieve > view.data-v-1c420219:first-child {
+  border-bottom: 2rpx solid #eee;
+}
+.rect .ly-relieve > view:first-child > view.data-v-1c420219 {
+  padding: 20rpx 0;
+}
+.rect .ly-relieve > view.data-v-1c420219:last-child {
+  padding: 20rpx 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-children-content.data-v-1c420219 {
+  padding: 0 30rpx;
+}
+.ly-content-section.data-v-1c420219 {
+  padding: 30rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-content-section .ly-content-title.data-v-1c420219 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ly-content-info.data-v-1c420219 {
+  margin-left: 20rpx;
+}
+.ly-content-info > view.data-v-1c420219:first-child {
+  margin-bottom: 20rpx;
+  font-size: 35rpx;
+}
+.ly-content-info > view.data-v-1c420219:last-child {
+  font-size: 20rpxs;
+}
+.ly-content-btn view.data-v-1c420219 {
+  padding: 5rpx 15rpx;
+}
+.ly-content-btn > view.data-v-1c420219:first-child {
+  border: 2rpx solid #ff6600;
+  color: #ff6600;
+}
+.ly-content-btn > view.data-v-1c420219:last-child {
+  border: 2rpx solid #666;
+  color: #666;
+  margin-top: 20rpx;
+}
+.ly-children-btn.data-v-1c420219 {
+  padding: 25rpx 0;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+

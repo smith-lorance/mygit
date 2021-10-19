@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "pay-tips": "/components/components"
+  }
+}

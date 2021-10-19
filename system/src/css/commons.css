@@ -1,0 +1,45 @@
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.m1000{
+    min-width: 1000px;
+}
+.mr15{
+    margin-right: 15px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.tf{
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+.hidden{
+    overflow: hidden;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bgw{
+    background-color: #fff;
+}
+.wtcolor{
+    color: #fff;
+}
+/* main */
+*{
+    box-sizing: border-box;
+}

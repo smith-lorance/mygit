@@ -1,0 +1,83 @@
+.fy-coop-banner{
+    height: 560px;
+    background: url(../images/coop-banner.jpg) no-repeat;
+}
+.fy-text-p{
+    width: 570px;
+    text-align: center;
+    margin: 0 auto;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.fy-invest-wraper{
+    background: url(../images/coop-bj.png) no-repeat 0 bottom;
+}
+.fy-invest-ul{
+    margin-right: -180px;
+}
+.fy-invest-li{
+    float: left;
+    width: 270px;
+    height: 90px;
+    margin-bottom: 40px;
+    margin-right: 180px;
+    overflow:hidden;
+}
+.fy-invest-icon{
+    width: 46px;
+    height: 40px;
+    background: url(../images/coop-icons.png) no-repeat;
+}
+.fy-invest-text{
+    width: 212px;
+    margin-top: -5px;
+}
+.fy-invest-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fy-invest-p{
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+.fy-icon2{
+    background-position: -70px 0;
+}
+.fy-icon3{
+    background-position: -146px 0;
+}
+.fy-icon4{
+    background-position: -221px 0;
+}
+.fy-icon5{
+    background-position: -294px 0;
+}
+.fy-icon6{
+    background-position: -365px 0;
+}
+.fy-icon7{
+    background-position: -441px 0;
+}
+.fy-icon8{
+    background-position: -515px 0;
+}
+.fy-icon9{
+    background-position: -590px 0;
+}
+.fy-icon10{
+    background-position: -659px 0;
+}
+.fy-icon11{
+    background-position: -738px 0;
+}
+.fy-icon12{
+    background-position: -806px 0;
+}
+.fy-pro-bg{
+    background:#fff url(../images/coop-bj2.jpg) no-repeat 0 bottom;
+}

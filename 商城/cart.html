@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,乐购">
+    <meta name="description"
+        content="乐购legou.com-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。">
+    <title>乐购-购物车</title>
+    <!-- 浏览器一致性的normailize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- 重置reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="css/font/iconfont.css">
+    <!-- 放大镜 -->
+    <link rel="stylesheet" href="css/xzoom.css">
+    <!-- scrollTop -->
+    <link rel="stylesheet" href="css/scrollTop/iconfont.css">
+    <link rel="stylesheet" href="css/scrollTop/scrollTop.css">
+
+    <!-- 公共common -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 头部header -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- 产品+购物车 -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- 尾部footer -->
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="cata">
+    <!-- 头部 -->
+    <header id="header" class="fy-header w100">
+
+        <div class="fy-header-users">
+            <!-- 用户登录注册 -->
+            <div class="fy-header-users-content w1200">
+                欢迎光临<a href='#' class="orangeColor">乐购</a>，请<a href="login.html" target="_blank"
+                    class="orangeColor mr10">登录</a> <a href="reg.html" target="_blank" class="grayColor">免费注册</a>
+            </div>
+        </div>
+        <!-- 搜索表单 -->
+        <div class="fy-header-search w1200 clearfix">
+            <div class="fy-header-search-wrapper fr">
+                <div class="fy-header-search-form hidden fl">
+                    <form action="#" method="get" name="search">
+                        <div class="fl">
+                            <input type="text" name="keywords" id="fy-hs-keywords-input" placeholder="输入商品名称"
+                                autocomplete="off" class="fy-input">
+                        </div>
+                        <div class="fl">
+                            <button type="submit" class="fy-button fy-hs-search-btn"><i
+                                    class="iconfont icon-sousuo"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="fy-header-cart fr">
+                    <a href="cart.html" target="_blank" class="fy-button block fl"><i
+                            class="iconfont icon-gouwuche"></i>购物车<span class="fy-cart-count">3</span></a>
+                    <a href="order.html" target="_blank" class="fy-gray-button block fl">我的订单</a>
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="fy-logo"><a href="index.html"><img src="images/LogoBG.jpg" alt="乐购"></a></div>
+        </div>
+
+
+    </header>
+
+
+    <!--购物车信息 -->
+    <section class="fy-section">
+        <div class="fy-cart whitebg">
+            <form action="order.html" name="cart" id="cart" method="post">
+                <table class="fy-cart-table">
+                    <thead>
+                        <tr>
+                            <th><label><input type="checkbox" name="checkAll" id="checkAll" class="fy-cart-checkAll">
+                                    全选</label></th>
+                            <th>商品</th>
+                            <th>单价</th>
+                            <th>数量</th>
+                            <th>小计</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="singleCheck" class="singleCheck"></td>
+                            <td>
+                                <a href="products.html"><img src="images/book/1.jpg" class="fl"></a>
+                                <div class="fy-cart-book-title fl">
+                                    <a href="products.html">许渊冲：永远的西南联大(诗译英法唯一人、百岁翻译家、北京大学教授、西南联大学子许渊冲的不朽联大)</a></div>
+                            </td>
+                            <td class="gray fy-cart-nowSinglePrice">¥18.20</td>
+                            <td>
+                                <div class="fy-pro-stock-num" id="cartnum1">
+                                    <button type="button" class="fy-pro-num-minus fl" disabled=""><i
+                                            class="iconfont icon-minus"></i></button>
+                                    <input type="text" class="fy-pro-num-total fl" autocomplete="off" value="1">
+                                    <button type="button" class="fy-pro-num-add fl"><i
+                                            class="iconfont icon-add"></i></button>
+                                </div>
+                            </td>
+                            <td><span class="orangeColor fy-cart-nowTotalPrice">¥18.20</span></td>
+                            <td>
+                                <p class="fy-subtext"><a href="javascript:;">移入收藏</a></p>
+                                <p class="fy-del-book fy-subtext"><a href="javascript:;">删除</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="singleCheck" class="singleCheck"></td>
+                            <td>
+                                <a href="products.html"><img src="images/book/2.jpg" class="fl"></a>
+                                <div class="fy-cart-book-title fl">
+                                    <a href="products.html">许渊冲：永远的西南联大</a></div>
+                            </td>
+                            <td class="gray fy-cart-nowSinglePrice">¥13.80</td>
+                            <td>
+                                <div class="fy-pro-stock-num" id="cartnum1">
+                                    <button type="button" class="fy-pro-num-minus fl" disabled=""><i
+                                            class="iconfont icon-minus"></i></button>
+                                    <input type="text" class="fy-pro-num-total fl" autocomplete="off" value="1">
+                                    <button type="button" class="fy-pro-num-add fl"><i
+                                            class="iconfont icon-add"></i></button>
+                                </div>
+                            </td>
+                            <td><span class="orangeColor fy-cart-nowTotalPrice">¥13.80</span></td>
+                            <td>
+                                <p class="fy-subtext"><a href="javascript:;">移入收藏</a></p>
+                                <p class="fy-del-book fy-subtext"><a href="javascript:;">删除</a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="singleCheck" class="singleCheck"></td>
+                            <td>
+                                <a href="products.html"><img src="images/book/3.jpg" class="fl"></a>
+                                <div class="fy-cart-book-title fl">
+                                    <a href="products.html">
+                                        全套10册幼儿童绘本3 6岁经典绘本排行榜 儿童情绪管理绘本故事书7 10岁注音版拼音读物幼儿园经典大班儿童绘本</a></div>
+                            </td>
+                            <td class="gray fy-cart-nowSinglePrice">¥28.50</td>
+                            <td>
+                                <div class="fy-pro-stock-num" id="cartnum1">
+                                    <button type="button" class="fy-pro-num-minus fl" disabled=""><i
+                                            class="iconfont icon-minus"></i></button>
+                                    <input type="text" class="fy-pro-num-total fl" autocomplete="off" value="1">
+                                    <button type="button" class="fy-pro-num-add fl"><i
+                                            class="iconfont icon-add"></i></button>
+                                </div>
+                            </td>
+                            <td><span class="orangeColor fy-cart-nowTotalPrice">¥28.50</span></td>
+                            <td>
+                                <p class="fy-subtext"><a href="javascript:;">移入收藏</a></p>
+                                <p class="fy-del-book fy-subtext"><a href="javascript:;">删除</a></p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" class="fy-cart-statistics">
+                                <label><input type="checkbox" name="checkAll" id="checkAll1" class="fy-cart-checkAll">
+                                    全选</label>
+                                <span><a href="javascript:;" id="fy-cat-delAll">删除选中的商品</a></span>
+                                <span>已选中<i class="fy-cart-checked-totalNum orange">0</i>件商品</span></td>
+                            <td colspan="2">总计：<span class="fy-cart-totalPrice">0</span>元</td>
+                            <td colspan="2"><input type="submit" value="去结算" name="settlement" id="fy-cart-btnSubmit"
+                                    class="fy-pro-cart-button-a fy-cart-btnSubmit" disabled></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 尾部 -->
+    <footer id="footer" class="fy-footer mt20">
+        <div class="fy-server w100">
+            <!-- 服务模块 -->
+            <div class="fy-server-wrapper w1200">
+                <ul class="fy-server-ul hidden">
+                    <li class="fy-server-li">
+                        <a href="#" class="fy-server-a">
+                            <span class="fy-server-icons">
+                                <i class="iconfont icon-quality-goods"></i>
+                            </span>
+                            <span class="fy-server-text">正规渠道 正品保障</span>
+                        </a>
+                    </li>
+                    <li class="fy-server-li">
+                        <a href="#" class="fy-server-a">
+                            <span class="fy-server-icons">
+                                <i class="iconfont icon-rmb"></i>
+                            </span>
+                            <span class="fy-server-text">放心购物 货到付款</span>
+                        </a>
+                    </li>
+                    <li class="fy-server-li">
+                        <a href="#" class="fy-server-a">
+                            <span class="fy-server-icons">
+                                <i class="iconfont icon-truck"></i>
+                            </span>
+                            <span class="fy-server-text">625城市次日到达</span>
+                        </a>
+                    </li>
+                    <li class="fy-server-li">
+                        <a href="#" class="fy-server-a">
+                            <span class="fy-server-icons">
+                                <i class="iconfont icon-saleorderreturnManage"></i>
+                            </span>
+                            <span class="fy-server-text">上门退货 当面退款</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 商家服务信息 -->
+        <div class="fy-server-info w1200 hidden">
+            <div class="fy-server-info-wrapper hidden fl">
+                <dl class="fy-server-info-dl">
+                    <dt class="fy-server-info-dt">
+                        购物指南
+                    </dt>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">购物流程</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">发票制度</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">账户管理</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">会员优惠</a></dd>
+                </dl>
+                <dl class="fy-server-info-dl">
+                    <dt class="fy-server-info-dt">
+                        支付方式
+                    </dt>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">货到付款</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">网上支付</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">礼品卡支付</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">银行转帐</a></dd>
+                </dl>
+                <dl class="fy-server-info-dl">
+                    <dt class="fy-server-info-dt">
+                        订单服务
+                    </dt>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">订单配送查询</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">订单状态说明</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">自助取消订单</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">自助修改订单</a></dd>
+                </dl>
+                <dl class="fy-server-info-dl">
+                    <dt class="fy-server-info-dt">
+                        退换货
+                    </dt>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">退换货政策</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">自助申请退换货</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">退换货进度查询</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">退款方式和时间</a></dd>
+                </dl>
+                <dl class="fy-server-info-dl">
+                    <dt class="fy-server-info-dt">
+                        商家服务
+                    </dt>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">商家中心</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">运营服务</a></dd>
+                    <dd class="fy-server-info-dd"><a href="#" class="fy-server-info-a">加入尾品汇</a></dd>
+                </dl>
+            </div>
+            <div class="fy-server-logo fr">
+                <a href="index.html"><img src="images/logo_00.png" alt="乐购"></a>
+            </div>
+        </div>
+        <!-- 版权信息 -->
+        <div class="fy-copyright w1200">
+            <p class="fy-copyright-links mb20">
+                <a href="#" class="fy-copyright-a">公司简介</a>
+                <a href="#" class="fy-copyright-a">Investor Relations</a>
+                <a href="#" class="fy-copyright-a">网站联盟</a>
+                <a href="#" class="fy-copyright-a">乐购招商</a>
+                <a href="#" class="fy-copyright-a">机构销售</a>
+                <a href="#" class="fy-copyright-a">手机乐购</a>
+                <a href="#" class="fy-copyright-a">官方Blog</a>
+                <a href="#" class="fy-copyright-a">热词搜索</a>
+            </p>
+            <p>Copyright (C) <a href="index.html">乐购网</a> 2004-2016, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <!-- 扫码领券 -->
+
+    <div class="fy-slidebar">
+        <div class="fy-quan-icon"><a href="#" class="fy-cart-a"><i class="iconfont icon-wodehongbao"></i></a></div>
+        <div class="fy-erweima">
+            <span class="fy-erweima-text">领券中心</span>
+            <div class="fy-erweima-img">
+                <img src="images/legou.jpg" alt="乐购二维码">
+                <p class="fy-erweima-tips mt5">扫描二维码，马上领券!</p>
+            </div>
+        </div>
+        <div class="fy-cart-icon">
+            <a href='cart.html' class="fy-cart-a">
+                <i class="iconfont icon-gouwuche"></i>
+                <span class="fy-cart-num">3</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery.js"></script>
+
+
+    <!-- 返回的顶部 -->
+    <script src="js/scrollTop.js"></script>
+    <script>
+        $(function () {
+            scrollTop.toScrollTop();
+        })
+    </script>
+
+    <!-- 产品购物车 -->
+
+    <script>
+        $(function () {
+
+            //两个全选框，自身的状态是一样的。
+            $('.fy-cart-checkAll').change(function () {
+                // 自身状态的改变
+                $('.fy-cart-checkAll').prop('checked', this.checked);
+                $('.singleCheck').prop('checked', this.checked);
+                getTotalPrice();
+                getCount();
+                submitBtnIsabled();
+            })
+
+            // 单个复选框的事件
+            $('.singleCheck').change(function () {
+                // 只有全部选中，flag才保持true
+                var flag = true;
+                // 只要单个复选框是未选中的，则flag变成false
+                if (!this.checked) {
+                    flag = false;
+                } else {
+                    $('.singleCheck').each(function () {
+                        if (!this.checked) {
+                            flag = false;
+                            // 如果遇到未选中的元素，不用再遍历后面的元素，直接跳出遍历。
+                            return;
+                        }
+                    })
+                }
+                if (flag) {
+                    $('.fy-cart-checkAll').prop('checked', true);
+                } else {
+                    $('.fy-cart-checkAll').prop('checked', false);
+                }
+                getTotalPrice();
+                getCount();
+                submitBtnIsabled();
+
+            })
+
+
+
+            // 点击减按钮
+
+            $('.fy-cart-table tbody tr').find('.fy-pro-num-minus').click(function () {
+                var $parent = $(this).closest('tr');
+                //点击的时候获取值，并且减1
+                var val = $(this).next().val() - 1;
+                // 如果值小于等于1，那么减按钮就不可用
+                if (val <= 1) {
+                    $(this).prop('disabled', true);
+                }
+                //再把值赋给input控件
+                $(this).next().val(val);
+                if ($(this).next().next().prop('disabled')) {
+                    $(this).next().next().prop('disabled', false);
+                }
+                // 复选框要选上
+                if (!$parent.find('.singleCheck').prop('checked')) {
+                    $parent.find('.singleCheck').prop('checked', true);
+                    // 判断全选是否应该被选上
+                    var flag = true;
+                    $('.singleCheck').each(function () {
+                        if (!this.checked) {
+                            flag = false;
+                            // 如果遇到未选中的元素，不用再遍历后面的元素，直接跳出遍历。
+                            return;
+                        }
+                    })
+                    if (flag) {
+                        $('.fy-cart-checkAll').prop('checked', true);
+                    } else {
+                        $('.fy-cart-checkAll').prop('checked', false);
+                    }
+                }
+
+                getPrice($parent, val);
+                getTotalPrice();
+                getCount();
+                submitBtnIsabled();
+
+            })
+            // 点击加按钮
+            $('.fy-cart-table tbody tr').find('.fy-pro-num-add').click(function () {
+                var $parent = $(this).closest('tr');
+                var val = +$(this).prev().val() + 1;
+                if (val >= 10) {
+                    $(this).prop('disabled', true);
+                }
+                $(this).prev().val(val);
+                if ($(this).prev().prev().prop('disabled')) {
+                    $(this).prev().prev().prop('disabled', false);
+                }
+                // 复选框要选上
+                if (!$parent.find('.singleCheck').prop('checked')) {
+                    $parent.find('.singleCheck').prop('checked', true);
+                    // 判断全选是否应该被选上
+                    var flag = true;
+                    $('.singleCheck').each(function () {
+                        if (!this.checked) {
+                            flag = false;
+                            // 如果遇到未选中的元素，不用再遍历后面的元素，直接跳出遍历。
+                            return;
+                        }
+                    })
+                    if (flag) {
+                        $('.fy-cart-checkAll').prop('checked', true);
+                    } else {
+                        $('.fy-cart-checkAll').prop('checked', false);
+                    }
+                }
+
+                getPrice($parent, val);
+                getTotalPrice();
+                getCount();
+                submitBtnIsabled();
+
+
+            })
+
+            // 删除单行购物车记录
+            $('.fy-del-book>a').click(function () {
+                $(this).closest('tr').remove();
+                getTotalPrice();
+                getCount();
+                checkAllIsabled();
+                submitBtnIsabled();
+            })
+
+            // 删除所有选中的商品
+            $('#fy-cat-delAll').click(function () {
+                $('.fy-cart .singleCheck:checked').closest('tr').remove();
+                checkAllIsabled();
+                submitBtnIsabled();
+
+            })
+
+        
+            // 求单个产品的总价
+            function getPrice(obj, val) {
+                // 设置价格
+                // 找到单价的字符串，再截取出后面的数字，转成数字类型
+                var singlePrice = +obj.find('.fy-cart-nowSinglePrice').text().slice(1);
+                var proTotalPrice = '¥' + (singlePrice * val).toFixed(2);
+                // 设置每个产品的总价
+                obj.find('.fy-cart-nowTotalPrice').text(proTotalPrice);
+            }
+
+
+            //求整个购物车的总价
+            function getTotalPrice() {
+                // 设置整个购物车的总价
+                var priceArr = [];
+                // 把被选中的产品的总价遍历入一个数组中保存起来
+                $('.fy-cart .singleCheck:checked').closest('tr').find('.fy-cart-nowTotalPrice').each(function (index, item) {
+                    priceArr.push(+item.innerText.slice(1));
+                });
+
+                // 把数组求和
+                var sumPrice = 0;
+                for (var i = 0; i < priceArr.length; i++) {
+                    sumPrice += priceArr[i];
+                }
+                // console.log(sumPrice);
+                $('.fy-cart .fy-cart-totalPrice').text('¥' + sumPrice.toFixed(2));
+            }
+
+            // 获取被选中的产品数量
+            function getCount() {
+                //map()函数返回一个jQuery对象，get()是把jquery对象转成一个数组
+                var count = $('.fy-cart .singleCheck:checked').closest('tr').find('.fy-pro-num-total').map(function (index, item) {
+                    return +item.value;
+                }).get();
+                var totalCount = 0;
+                for (var i = 0; i < count.length; i++) {
+                    totalCount += count[i];
+                }
+                // console.log(totalCount);
+                $('.fy-cart-checked-totalNum').text(totalCount);
+
+            }
+
+             // 判断全选是否可用
+             function checkAllIsabled() {
+                var num = $('.fy-cart tbody').children().length;
+                // 如果一个产品都没有
+                if (num == 0) {
+                    // 全选为假
+                    $('.fy-cart .fy-cart-checkAll').prop('disabled', true);
+                    //全选不可用
+                    $('.fy-cart .fy-cart-checkAll').prop('checked', false);
+                    // 被选中的数量归零
+                    $('.fy-cart .fy-cart-checked-totalNum').text(0);
+                    //被选中的商品总价归零
+                    $('.fy-cart .fy-cart-totalPrice').text(0);
+                } else {
+                    $('.fy-cart-checkAll').prop('disabled', false);
+                }
+            }
+
+
+            // 提交按钮是否可用,数据归零
+            function submitBtnIsabled(){
+                var len = $('.fy-cart .singleCheck:checked').length;
+                // console.log(len);
+                if(len >0){
+                    $('#fy-cart-btnSubmit').prop('disabled',false);
+                }else{
+                    $('#fy-cart-btnSubmit').prop('disabled',true);
+                    // 被选中的数量归零
+                    $('.fy-cart .fy-cart-checked-totalNum').text(0);
+                    //被选中的商品总价归零
+                    $('.fy-cart .fy-cart-totalPrice').text(0);
+                }
+            
+            }
+            
+
+        })
+
+        
+
+
+
+    </script>
+
+</body>
+
+</html>

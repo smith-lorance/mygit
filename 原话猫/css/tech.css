@@ -1,0 +1,134 @@
+.fy-tech-banner{
+    height: 560px;
+    background: url(../images/art-banner.jpg) no-repeat;
+}
+.fy-cs-ul{
+    margin-right: -30px;
+}
+.fy-cs-li-des{
+    height: 50px;
+    overflow: hidden;
+}
+.fy-course-button:hover{
+    background-color: #333;
+}
+
+/* 会员服务 */
+.fy-vip-li{
+    position: relative;
+    width: 292px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.fy-vip-li:hover{
+    color: #ff8c1b;
+}
+.fy-vip-li.active{
+    background-color: #ff8c1b;
+    color: #fff;
+}
+.fy-vip-li.active:after{
+    content:'';
+    position: absolute;
+    border-top: 12px solid #ff8c1b;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -12px;
+}
+/* 门店环境 */
+.fy-shop-ul{
+    width: 2000px;
+}
+.fy-shop-li{
+    float: left;
+    margin-right: 30px;
+}
+.fy-shop-des{
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-top: 15px;
+}
+.fy-shop-button{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    top: 88px;
+}
+.fy-shop-left{
+    left: -30px;   
+}
+.fy-shop-right{
+    right: -30px;
+}
+.fy-shop-left .icon-left-arrow {
+   
+    font-size: 24px;
+}
+.fy-shop-right .icon-right-arrow{
+   
+    font-size: 24px;
+}
+.fy-shop-button:hover{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+/* 表单搜索 */
+.fy-teacher-form-wraper{
+    display: table;
+    width: 100%;
+}
+.fy-teacher-form{   
+    width: 100%;
+    height: 316px;
+    display: table-cell;
+    vertical-align: middle;
+    background: url(../images/art-search.jpg) no-repeat;
+}
+.fy-teacher-title{
+    font-size:34px;
+    color:#fff;
+    margin-bottom: 35px;
+}
+.fy-t-form-wraper{
+    width: 630px;
+    margin: 0 auto;
+}
+.fy-t-input{
+    box-sizing: border-box;
+    width: 523px;
+    height: 64px;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px;
+    color: #666;
+    font-size:20px;
+    border: none;
+}
+.fy-t-submit{
+    width: 107px;
+    height: 64px;
+    border: none;
+    border-radius:0 5px 5px 0;
+    color: #fff;
+    background-color: #454545;
+    font-size:20px;
+    cursor: pointer;
+}
+.fy-t-submit:hover{
+    background-color: #333;
+}
+
+
+

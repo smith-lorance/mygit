@@ -1,0 +1,196 @@
+/* 今日推荐秒杀模块 */
+
+.fy-miaosha-li{
+    position: relative;
+    box-sizing: border-box;
+    width: 200px;
+    height: 283px;
+    background-color: #fff;
+    padding: 20px 15px;
+    float: left;
+}
+.fy-miaosha-li::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height:100%;
+    background: linear-gradient(transparent 10%,#eee,transparent 90%);
+    right: 0;
+    top: 0;
+    
+}
+.fy-miaosha-a{
+    display: block;
+}
+.fy-product-imgbox{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.fy-product-img{
+    width: 150px;
+    transition:0.2s;
+}
+.fy-miaosha-li:hover .fy-product-img{
+    opacity: 0.8;
+}
+.fy-product-title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fy-product-info{
+    font-size: 0.875rem;
+    color: #999;
+}
+.fy-miaosha-price{
+    border: 2px solid #ff6600;
+    height: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.fy-miaosha-newpricebox{
+    position: relative;
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    width: 51%;
+    text-align: center;
+}
+.fy-miaosha-newpricebox::after{
+    content: '';
+    position: absolute;
+    border-top: 13px solid #ff6600;
+    border-left:6px solid #ff6600;
+    border-right:6px solid transparent;
+    border-bottom:13px solid transparent;
+    right:-12px;
+    top: 0;
+
+}
+.fy-miaosha-rmbicon{
+    font-size: 0.875rem;
+}
+.fy-miaosha-newprice{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.fy-subtext{
+
+    color: #999;
+    font-size: 0.875rem;
+
+}
+/* 第六个的倍数没有伪对象产生的渐变的竖线 */
+.fy-miaosha-li:nth-child(6n)::after{
+    content: none;
+}
+
+
+/* 图书电子书模块 */
+.fy-section-maincate{
+    width: 238px;
+    height: 443px;
+    overflow: hidden;
+}
+.fy-section-mainbook{
+    height: 286px;
+    overflow: hidden;
+}
+.fy-section-maincate-text{
+    padding: 10px;
+}
+.fy-section-maincate-text>a{
+    padding: 5px 8px;
+    word-break:keep-all;
+}
+.fy-section-book-center{
+    width:662px;
+}
+.fy-swiper-book-box{
+    width: 50%;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+.fy-swiper-book-box .swiper-container{
+    --swiper-navigation-color:#a9dc8d;
+    --swiper-navigation-size:30px;
+}
+
+.fy-section-book-item{
+    width: 25%;
+    height: 216px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.fy-book-imgbox{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fy-newprice{
+    font-size: 0.875rem;
+    color: #ff6600;
+}
+.fy-oldprice{
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.fy-section-book-top{
+    border-bottom: 1px solid #eee;
+}
+
+
+/* 选项卡标题的公共样式 */
+.fy-tab-nav{
+    border-bottom: 4px solid #ff6600;
+}
+.fy-tab-book{
+    width: 900px;
+}
+
+.fy-tab-li{
+    float: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fy-tab-li.active{
+    background-color: #ff6600;
+    color: #fff;
+}
+
+
+/* 推广商品 */
+.fy-section-ext .fy-tab-ext-li{
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-left:10px;
+}
+.fy-section-ext .fy-tab-ext-li.active{
+    background-color: #ff6600;
+}
+.fy-section-ext .fy-tab-ul{
+    padding-top: 15px;
+}
+.fy-section-ext-ul{
+    margin-right: -20px;
+}
+.fy-section-ext-li{
+    box-sizing:border-box;
+    float: left;
+    width:224px;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    transition: 0.2s;
+}
+.fy-section-ext-li:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

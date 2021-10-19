@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选择课程",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "pay-tips": "/components/components"
+  }
+}

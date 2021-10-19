@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "修改资料",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

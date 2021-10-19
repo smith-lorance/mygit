@@ -1,0 +1,28 @@
+/* 合作伙伴的专门页面样式 */
+.fy-partners-wrap{
+    padding: 100px 0;
+    margin-bottom: -50px;
+}
+.fy-partners-banner{
+    height: 330px;
+    background: url(../images/p-banner.jpg) no-repeat;
+}
+.fy-partners-ul{
+    margin-right: -50px;
+   
+}
+.fy-partners-li{
+    width: 255px;
+    height: 134px;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.fy-partners-img:hover{
+    /* 透明度80% */
+    opacity: 0.8;
+    /* 兼容IE8 */
+    filter:alpha(opacity=80);
+}
+

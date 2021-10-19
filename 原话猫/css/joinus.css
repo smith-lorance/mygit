@@ -1,0 +1,57 @@
+.fy-joinus-banner{
+    height: 330px;
+    background: url(../images/joinus-banner.jpg) no-repeat;
+} 
+.icon-email{
+    color: #f98e25;
+    font-size: 28px;
+}
+.fy-email{
+    color: #f98e25;
+    margin-left: 5px;
+}
+.fy-content-text{
+    display: inline-block;
+    width: 230px;
+}
+.fy-job-li{        
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.fy-job-bar{
+    padding: 0 40px;
+    height: 80px;
+    line-height: 80px;
+}
+.fy-job-bar.active{
+    background-color: #ff8c1b;
+    color: #fff;
+}
+.fy-job-content{
+    padding:25px 40px 50px;
+    line-height: 2;
+}
+.fy-job-content dd{
+    font-size: 14px;
+}
+.fy-job-icon{
+    height: 80px;
+}
+.icon-add,.icon-jian{
+    font-size: 24px;
+}
+.fy-career-form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 420px;
+    height: 450px;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px 35px 40px;
+    margin:auto;
+    background-color: #fff;
+    
+}

@@ -1,0 +1,74 @@
+.ly-person-main.data-v-b699f7ce {
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+}
+.ly-person-header.data-v-b699f7ce {
+  background-color: #fff;
+  padding: 30rpx 30rpx;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 10rpx rgba(0, 0, 0, 0.1);
+  margin-bottom: 20rpx;
+}
+.ly-header-top.data-v-b699f7ce {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 2rpx solid #eee;
+}
+.ly-top-left.data-v-b699f7ce {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ly-top-title.data-v-b699f7ce {
+  margin-left: 20rpx;
+}
+.ly-person-title.data-v-b699f7ce {
+  font-size: 40rpx;
+}
+.ly-person-content.data-v-b699f7ce {
+  padding: 0 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.ly-person-subtitle.data-v-b699f7ce {
+  font-size: 30rpx;
+}
+.ly-personInfo-teacher.data-v-b699f7ce {
+  padding: 0 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 0 30rpx rgba(0, 0, 0, 0.2);
+}
+.ly-teacher-section.data-v-b699f7ce {
+  padding: 40rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #eee;
+}
+.ly-teacher-section.data-v-b699f7ce:nth-last-of-type(1) {
+  border: none;
+}
+.ly-sign-out.data-v-b699f7ce {
+  padding: 20rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 40rpx;
+  border-radius: 10rpx;
+}
+

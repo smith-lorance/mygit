@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'iconfont';
+  /* Project id 2751129 */
+  src: url('//at.alicdn.com/t/font_2751129_kpleoayqt89.woff2?t=1630500171388') format('woff2'), url('//at.alicdn.com/t/font_2751129_kpleoayqt89.woff?t=1630500171388') format('woff'), url('//at.alicdn.com/t/font_2751129_kpleoayqt89.ttf?t=1630500171388') format('truetype');
+}
+.test.data-v-7670e488 {
+  font-family: iconfont;
+  font-size: 20rpx;
+}
+.ly-homepage-wrapper.data-v-7670e488 {
+  padding: 0 30rpx;
+}
+.ly-homepage-info.data-v-7670e488,
+.ly-homepage-buy.data-v-7670e488,
+.ly-homepage-study.data-v-7670e488 {
+  padding: 40rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  font-weight: 540;
+  margin-top: 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 0 40rpx #ddd;
+}
+.ly-info-box.data-v-7670e488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.ly-info-box .ly-info-text.data-v-7670e488 {
+  margin-right: 20rpx;
+}
+.ly-info-box.data-v-7670e488:nth-last-of-type(1) {
+  margin: 0;
+}
+.ly-buy-title.data-v-7670e488 {
+  margin-bottom: 40rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+.ly-buy-count.data-v-7670e488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-buy-count .ly-count-num.data-v-7670e488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.ly-study-content.data-v-7670e488 {
+  margin-bottom: 30rpx;
+}
+.ly-study-box.data-v-7670e488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ly-study-box .ly-study-num.data-v-7670e488 {
+  font-size: 40rpx;
+  margin-right: 50rpx;
+}
+.ly-study-box .ly-study-title.data-v-7670e488 {
+  font-size: 20rpx;
+  font-weight: 550;
+}
+.ly-study-count.data-v-7670e488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 56rpx;
+}
+.ly-study-count > view.data-v-7670e488 {
+  padding: 4rpx 20rpx;
+}
+.ly-study-count > view.data-v-7670e488:first-child {
+  border-right: 4rpx solid #ddd;
+}
+

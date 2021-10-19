@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/course/course",
+    "pages/details/details",
+    "pages/login/personinfo",
+    "pages/login/reg",
+    "pages/login/setpwd",
+    "pages/home/home",
+    "pages/my/my",
+    "pages/inset/inset/inset",
+    "pages/home/list",
+    "pages/home/chat",
+    "pages/home/invite",
+    "pages/home/inviteUser",
+    "pages/my/homepage",
+    "pages/my/setinfo",
+    "pages/my/consume",
+    "pages/my/database",
+    "pages/my/persondata",
+    "pages/my/children"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/indexbg.png",
+        "selectedIconPath": "./static/index.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "群聊",
+        "iconPath": "./static/groupbg.png",
+        "selectedIconPath": "./static/group.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/mybg.png",
+        "selectedIconPath": "./static/my.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

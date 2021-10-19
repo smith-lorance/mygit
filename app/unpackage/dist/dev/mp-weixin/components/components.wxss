@@ -1,0 +1,62 @@
+.warp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 100%;
+}
+.rect {
+  background-color: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.ly-parent-box {
+  padding: 30rpx 40rpx;
+}
+.ly-parent-box > view:nth-child(n+2) {
+  margin-top: 20rpx;
+  padding: 10rpx 120rpx ;
+  background-color: #ff6600;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.ly-course-pay {
+  width: 350rpx;
+  padding: 20rpx 40rpx;
+}
+.ly-course-pay > view:first-child {
+  font-size: 30rpx;
+  font-weight: 550;
+  margin-bottom: 20rpx;
+}
+.ly-course-pay > view:nth-child(2) {
+  font-size: 40rpx;
+  color: #ff6600;
+  margin-bottom: 20rpx;
+}
+.ly-course-pay > view:nth-child(3),
+.ly-course-pay > view:nth-child(4) {
+  padding: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #eee;
+  font-size: 20rpx;
+  font-weight: 550;
+  margin-bottom: 20rpx;
+}
+.ly-course-pay > view:last-child {
+  color: #fff;
+  background-color: #ff6600;
+  padding: 10rpx 0;
+  border-radius: 10rpx;
+}
+

@@ -1,0 +1,381 @@
+.fy-index-banner-wraper{
+    position: relative;
+    height: 750px;
+    background: url(../images/banner1.jpg) no-repeat center top;
+}
+.fy-index-banner-wraper:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color:rgba(0,0,0,0.65);
+}
+.fy-index-header{
+    position: absolute;
+    width: 100%;
+}
+.fy-index-header .fy-main-nav-a{
+    color:#fff;
+}
+.fy-index-header .fy-main-nav-a:hover,.fy-index-header .fy-main-nav-a.active{ 
+    color: #ff8c1b;
+}
+.fy-index-banner{
+    display: block;
+    position: absolute;
+    width: 540px;
+    height: 226px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.fy-index-banner .fy-banner-title{
+    font-size:36px;
+}
+.fy-index-banner .fy-banner-subtitle{
+    font-size:20px;
+}
+/* 学员画廊 */
+.fy-index-works-wraper{
+    min-width: 1170px;
+}
+.fy-works-left{
+    position: relative;
+    width: 37%;    
+    overflow: hidden;
+}
+.fy-works-img{
+    width: 100%;
+}
+.fy-works-des{
+    /* visibility: hidden; */
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 184px;
+    padding: 30px;
+    background-color: rgba(255, 140, 27,.8);
+    left: 0;
+    bottom: 0;
+    bottom: -184px;
+    color: #fff;
+    transition: 0.2s;
+   
+}
+.fy-big-avtor{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.fy-works-left:hover .fy-works-des{
+    bottom: 0;
+    /* 动画的显示隐藏对display：none不起作用，只对visibility起作用 */
+    /* visibility:visible; */
+}
+.fy-works-right{
+    width: 61.5%;
+    overflow: hidden;
+}
+.fy-works-ul{
+    margin-right: -1.3%;
+}
+.fy-works-li{
+    position: relative;
+    float: left;
+    width: 32%;
+    margin-right: 1.3%;
+    margin-bottom: 1.3%;
+    overflow: hidden;
+}
+
+.fy-works-right-des{
+    box-sizing: border-box;
+    height: 90px;
+    padding: 15px;
+    bottom: -90px;
+
+}
+.fy-small-avtor{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.fy-works-li:hover .fy-works-right-des{
+    bottom: 0;
+}
+
+/* 课程体系 */
+.fy-course-cata{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.fy-course-cata.active{
+    border-bottom: 3px solid #ff8c1b;
+}
+.fy-course-cata.active:after{
+    content:'';
+    position: absolute;
+    border-top: 6px solid #ff8c1b;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    left:50%;
+    margin-left:-5px;
+    bottom: -8px;
+
+}
+.fy-course-top-text{
+    width: 325px;
+    height: 300px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.fy-course-top-p{
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 20px 0 40px;
+}
+.fy-cs-index-li{
+    width: 370px;
+}
+.fy-cs-index-li .fy-cs-img{
+    width: 370px;
+}
+
+/* 创艺产品 */
+.fy-pro-ul{
+    width:1500px;
+}
+.fy-pro-li{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 270px;
+    height: 360px;
+    padding: 15px;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+   
+}
+.fy-pro-img-box{
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    padding: 25px 0;
+}
+.fy-pro-img{
+    width: 100%;
+}
+.fy-pro-num{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff8c1b;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.fy-pro-name{
+    font-size: 24px;
+    color: #666;
+    vertical-align: middle;
+}
+.fy-pro-info{
+    /* display: none; */
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 45px 20px 20px;
+    background-color:rgba(255, 140, 27,.9);
+    color: #fff;
+    transition: 0.2s;
+    
+}
+.fy-pro-info-title{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.fy-pro-info-des{
+    font-size: 14px;
+    line-height: 1.8;
+    height: 104px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.fy-pro-button,.fy-pro-button:hover{
+    color: #ff8c1b;
+    background-color: #fff;
+}
+.fy-pro-li:hover .fy-pro-info{
+    bottom: 0;
+}
+.fy-pro-iconbutton{
+    position: absolute;   
+    top: 50%;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    color: #d9d9d9;
+    text-align: center;
+    line-height: 60px;
+}
+.fy-pro-iconbutton .iconfont{
+    font-size: 60px;
+}
+.fy-pro-left{
+    left:-80px ;
+}
+.fy-pro-right{
+    right: -80px;
+}
+/* 授权合作 */
+.fy-coop-wraper{
+    width: 100%;
+    min-width: 1170px;
+    height: 600px;
+    background: url(../images/index-banner1.jpg) no-repeat center;
+}
+.fy-coop-info{
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 80px 70px 50px;
+    height: 600px;
+    color: #fff;
+    background-color: rgba(249, 142, 37,.9)
+}
+.fy-coop-title{
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.fy-coop-title-bg{
+    position: absolute;
+    left: 50px;
+    top: -30px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #fff;
+    border-left: none;
+    border-radius: 3px;
+}
+.fy-coop-title-bg:before,.fy-coop-title-bg:after{
+    content:'';
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+}
+/* .fy-coop-title-bg:before{
+    top: 0;
+} */
+.fy-coop-title-bg:after{
+    top: auto;
+    bottom: 0;
+}
+.fy-coop-des{
+    height: 246px;
+    overflow: hidden;
+}
+.fy-coop-des p{
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.fy-coop-button{
+    background-color: #fff;
+    color: #ff8c1b;
+    margin-top: 40px;
+}
+.fy-coop-button:hover{
+    background-color: #333;
+    color: #fff;
+}
+.fy-aboutus-box{
+    position: relative;
+    height: 506px;
+    background: url(../images/aboutme.jpg) no-repeat;
+}
+.fy-aboutus-content{
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    width: 510px;
+    height: 290px;
+    overflow: hidden;   
+    border-radius: 10px; 
+    padding:20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background: #fff url(../images/ABOUTUS.png) no-repeat 30px 20px;
+}
+.fy-aboutus-des{
+    height: 116px;
+    overflow:hidden;
+    margin: 20px 0 20px;
+    color: #666;
+    font-size: 14px;
+}
+.fy-button-black:hover{
+    background-color: #333;
+    color: #fff;
+}
+/* 新闻资讯 */
+.fy-main-news-box{
+    width: 430px;
+
+}
+.fy-main-imgbox{
+    width: 430px;
+    height: 240px;
+    border-radius: 10px;
+    overflow:hidden;
+    margin-bottom: 20px;
+}
+.fy-main-imgbox:hover{
+    opacity: 0.9;
+}
+.fy-news-time{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.fy-news-des{
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+.fy-news-list-box{
+    width: 670px;
+
+}
+.fy-news-li{
+    background: url(../images/news-icon.png) no-repeat 0 8px;
+    padding:0 0 25px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.fy-news-li+.fy-news-li{
+    margin-top: 20px;
+}
+

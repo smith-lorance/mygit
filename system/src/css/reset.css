@@ -1,0 +1,45 @@
+/* 重置样式 */
+html, body, div, span,  table, caption, 
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img,  small,  strong,  var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,  address, big, cite, code, dl, dt, dd, ol, ul, li, form, label,input { 
+    vertical-align: baseline; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    outline: 0; 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+} 
+:focus { 
+    outline: 0; 
+} 
+body { 
+    background-color: #f8f8ff;
+    line-height: 1; 
+    color: black; 
+} 
+ol, ul,li { 
+    list-style: none; 
+} 
+a{
+    text-decoration: none;
+    color: #333535;
+}
+table { 
+    border-collapse: collapse; 
+} 
+caption, th, td { 
+    font-weight: normal; 
+    text-align: left; 
+} 
+blockquote:before, blockquote:after, q:before, q:after { 
+    content: “”; 
+} 
+blockquote, q { 
+    quotes: “” “”; 
+}
+img{
+    vertical-align: middle;
+}

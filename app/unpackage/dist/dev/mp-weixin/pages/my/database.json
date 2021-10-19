@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "资料库",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress"
+  }
+}

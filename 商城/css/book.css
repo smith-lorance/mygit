@@ -1,0 +1,34 @@
+.cata .fy-miaosha-li{
+    height: 254px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 5px;
+}
+.fy-section-catabook-special .swiper-container{
+    --swiper-navigation-color:#ff6600;
+    --swiper-pagination-color:#ff6600;
+}
+
+/* 猜你喜欢 */
+.fy-section-change-icon{
+    color: rgba(255, 102, 0,.8);
+    cursor: pointer;
+    padding-top: 10px;
+}
+.fy-section-change-icon .icon-change{
+    font-size: 1.5rem;
+}
+.fy-section-change-icon:hover{
+    color: rgba(255, 102, 0,1);
+}
+.fy-section-change-content{
+    height: 508px;
+    overflow: hidden;
+    position: relative;
+}
+.fy-section-change-contentWrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}

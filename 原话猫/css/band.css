@@ -1,0 +1,222 @@
+.fy-band-banner{
+    height: 560px;
+    background: url(../images/aboutus-banner.jpg) no-repeat;
+}
+.fy-band-nav{
+    min-width: 1170px;
+    height: 60px;
+    background-color: #0b152e;
+}
+.fy-band-nav-ul{
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+.fy-band-nav-li{
+    float: left;
+}
+.fy-band-nav-a{
+    display: block;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+.fy-band-nav-a:hover,.fy-band-nav-li.active>.fy-band-nav-a{
+    background-color: #ff8c1b;
+    color: #fff;
+}
+.fy-band-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.fy-band-section{
+    margin-bottom: 115px;
+}
+.fy-band-subtitle{
+    font-size: 28px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fy-band-com-des{
+    width: 970px;
+    margin: 0 auto;
+}
+.fy-band-com-des p{
+    margin-bottom: 16px;
+    
+}
+.fy-band-comimg{
+    margin-top:35px;
+}
+.fy-band-cur-wraper{
+    padding-bottom: 100px;
+    background: url(../images/coop-bj.png) no-repeat 0 bottom;
+}
+.fy-band-cur-des{
+    width: 300px;
+    margin: 30px auto;
+    padding-left: 70px;
+}
+.fy-band-cur-title{
+    font-size: 20px;
+    color: #ff8c1b;
+    margin-right: 30px;
+}
+.fy-band-cur-des p{
+    margin-bottom: 10px;
+}
+.fy-band-honour{
+    width: 1102px;
+    height: 314px;
+    margin: 0 auto;
+}
+
+/* 大事件 */
+.fy-event-wraper{
+    width: 690px;
+    margin: 60px auto 0;
+}
+.fy-year{
+    font-size: 20px;
+}
+.fy-year:after,.fy-event-li:after{
+    content: '';
+    display: block;
+    width:1px;
+    height: 30px;
+    background-color: #ddd;
+}
+.fy-year:after{
+    margin-left: 20px;
+}
+.fy-event-li:after{
+    margin-left: 10px;
+}
+.fy-event-ul{
+    padding-left: 10px;
+}
+.fy-event-dot{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #ffc185;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.fy-event-des{
+    display: inline-block;
+    max-width: 540px;
+    vertical-align: middle;
+    margin-left: 110px;
+}
+.event-last-li:after{
+    display: none;
+}
+
+/* 公司规模 */
+.fy-company-wrap{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 30px;
+    padding: 0 100px;
+    margin-bottom: 60px;
+}
+.fy-company-box{
+    display: table-cell;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.fy-company-count{
+    color: #ff8c1b;
+    font-size: 32px;
+}
+.fy-company-num{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+.fy-map{
+    position: relative;
+    margin: 0 auto;
+    width: 997px;
+    height: 824px;
+    background: url(../images/map.png) no-repeat;
+}
+.fy-map-li{
+    position: absolute;
+}
+.fy-map-dot{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #ff8c1b;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.map1{
+    left: 225px;
+    top: 234px;
+}
+.map2{
+    left: 882px;
+    top: 140px;
+}
+.map3{
+    left: 387px;
+    top: 310px;
+}
+/* 师资力量 */
+.fy-teacher-section{  
+    width: 1100px;
+    height: 246px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t1{
+    background: url(../images/t1.jpg) no-repeat;
+}
+.t2{
+    background: url(../images/t2.jpg) no-repeat;
+}
+.fy-teacher-stitle{
+    box-sizing: border-box;
+    width: 315px;
+    height: 246px;
+    display: table-cell;
+    padding-left: 45px;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #ff8c1b;
+}
+.fy-teacher-sdes{
+    width: 500px;
+    height: 246px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* 专家团队 */
+.fy-export-des{
+    width: 400px;
+    padding-top: 35px;
+}
+.fy-export-name{
+    font-size: 28px;
+    color: #ff8c1b;
+    margin-bottom: 5px;
+}
+.fy-export-pos{
+    color: #666;
+    margin-bottom: 25px;
+}

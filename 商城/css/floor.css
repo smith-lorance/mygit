@@ -1,0 +1,80 @@
+  /* 楼层的样式 */
+  .fy-floor{
+    width: 40px;
+    height: 200px;
+    background-color: #e2e2e2;
+    position: fixed;
+    left: 50%;
+    /* 往左边移动版心的一半，再加上自己的宽度 */
+    margin-left: -660px;
+    top: 50%;
+    margin-top: -100px;
+    z-index:10;
+}
+.fy-floor-li{
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fy-floor-li:hover{
+    width: 90px;
+}
+
+.fy-floor-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background: url(../images/floor.png) no-repeat;
+}
+.fy-floor-cate{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+.fy-floor-li:first-child:hover{
+  background-color: #93d46f;
+}
+ .fy-floor-li:nth-child(2):hover{
+  background-color: #fa6a89;
+}
+ .fy-floor-li:nth-child(3):hover{
+  background-color: #bea1ee;
+}
+ .fy-floor-li:nth-child(4):hover{
+  background-color: #F9CE00;
+}
+ .fy-floor-li:nth-child(5):hover{
+  background-color: #61e1e6;
+}
+.fy-floor-li:first-child:hover .fy-floor-icon{
+    background-position: -40px 0;
+}
+.fy-floor-li:nth-child(2) .fy-floor-icon{
+    background-position: 0 -80px;
+}
+.fy-floor-li:nth-child(2):hover .fy-floor-icon{
+    background-position: -40px -80px;
+}
+.fy-floor-li:nth-child(3) .fy-floor-icon{
+    background-position: 0 -160px;
+}
+.fy-floor-li:nth-child(3):hover .fy-floor-icon{
+    background-position: -40px -160px;
+}
+.fy-floor-li:nth-child(4) .fy-floor-icon{
+    background-position: 0 -200px;
+}
+.fy-floor-li:nth-child(4):hover .fy-floor-icon{
+    background-position: -40px -200px;
+}
+.fy-floor-li:nth-child(5) .fy-floor-icon{
+    background-position: 0 -320px;
+}
+.fy-floor-li:nth-child(5):hover .fy-floor-icon{
+    background-position: -40px -320px;
+}
