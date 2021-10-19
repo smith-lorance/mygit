@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/prop-types/15.7.2/prop-types.js  "></script>
+</head>
+
+<body>
+    <div id='change'></div>
+    <div id='input'></div>
+    <script type="text/babel">
+        class TableStr extends React.Component {
+            constructor(props) {
+                super();
+                this.state = {
+                    arr: ["语文", '数学', '英语', '化学', '地理', '生物', '历史', '政治']
+                }
+            }
+            render() {
+                return (
+                    this.state.arr.map((item, index) => {
+                        return <React.Fragment key={index}>
+                            <li>
+                                {item}
+                            </li>
+                        </React.Fragment>
+                    })
+                )
+            }
+        }
+        ReactDOM.render(<TableStr />, document.getElementById('change'))
+        class IuPut extends React.Component {
+            constructor(props) {
+                super();
+                this.state = {
+                    text:''
+                }
+            }
+            Onchange(event){
+                let data = event.target.value;
+                this.setState({
+                    text:data
+                })
+            }
+            render() {
+                return (
+                    <input type='text' value={this.state.text} onChange={this.Onchange.bind(this)}
+                    />
+                )
+
+            }
+        }
+        ReactDOM.render(<IuPut />, document.getElementById('input'))
+    </script>
+</body>
+
+</html>

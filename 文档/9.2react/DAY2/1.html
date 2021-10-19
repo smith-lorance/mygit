@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<style>
+   
+</style>
+
+<body>
+    <div id="hd"></div>
+    <div id="xd"></div>
+    <div id="sd"></div>
+</body>
+<script type="text/babel">
+    class QYC extends React.Component {
+        constructor(props){
+            super(props);
+        }
+        static defaultProps = {
+            text:"班长"
+     }
+        render(){
+            return(
+                <p>{this.props.text}</p>
+            )
+        }
+    }
+    ReactDOM.render(<QYC text='asdasd'/>,document.getElementById('hd'))
+
+
+
+    class QYC1 extends React.Component {
+        constructor(props){
+            super(props);
+        }
+        render(){
+            let liList = this.props.dataList.map((item,index)=>{
+                return <li key={index}>{item}</li>
+            })
+            return(
+                <ul>{liList}</ul>
+            )
+        }
+    }
+    let arr = ['js','java','c','asd','asdasd']
+    ReactDOM.render(<QYC1 dataList={arr}/>,document.getElementById('xd'))
+
+
+    class QQ extends React.Component{
+        constructor(props){
+            super(props);
+        }
+        render(){
+            return (
+                <div style={this.props.style}>
+                <p>{this.props.text}</p>
+                <QQ1 text="wdnmd"></QQ1>
+                </div>
+                )
+        }
+    }
+    class QQ1 extends React.Component{
+        constructor(props){
+            super(props);
+        }
+        render(){
+            return <p>{this.props.text}</p>
+        }
+    }
+    ReactDOM.render(<QQ text="青山常在柴不空" style={{margin:"0 auto",width:"500px",color:"red",textAlign: "center"}}/>,document.getElementById('sd'))
+</script>
+
+</html>

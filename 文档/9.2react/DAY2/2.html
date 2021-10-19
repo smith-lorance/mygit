@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="hd"></div>
+</body>
+<script type="text/babel">
+    class Changeme extends React.Component {
+        constructor(props) {
+            super(props)
+            this.state = {
+                s: "off",
+                b: "true"
+            }
+            this.changeon = this.changeon.bind(this);
+        }
+        changeon() {
+            this.setState({
+                s: this.state.s == 'off' ? 'on' : 'off',
+            })
+        }
+        changetrue() {
+            this.setState({
+                b: this.state.b == 'true' ? 'false' : 'true',
+            })
+        }
+        render() {
+            return (
+                <div>
+                    <p>{this.state.s === 'off' ? '关闭' : '开启'}</p>
+                    <p>{this.state.b === 'true' ? '打开状态' : '关闭'}</p>
+                    <button onClick={this.changeon}>点击</button>
+                    <button onClick={this.changetrue.bind(this)}>控制遮罩层状态</button>
+                </div>
+            );
+        }
+    }
+    ReactDOM.render(<Changeme/>, document.getElementById('hd'))
+
+</script>
+
+</html>

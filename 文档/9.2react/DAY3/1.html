@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/prop-types/15.7.2/prop-types.js  "></script>
+</head>
+<body>
+    <div id = 'son'></div>
+    <div id = 'father'></div>
+    <script type="text/babel">
+    //父传子
+    class SetAdd extends React.Component{
+        constructor(props){
+            super(props)
+            this.state = {
+                i:0
+            }
+        }
+        render(){
+            return (
+                <div>
+                <GetAdd i = {this.state.i}/>
+                </div>
+            )
+        }
+    }
+
+    class GetAdd extends React.Component{
+        constructor(props){
+            super(props)
+        }
+        render(){
+            return (
+                <div>
+                <p>{this.props.i}</p>
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(<SetAdd/>, document.getElementById('son'))
+
+    //子传父
+    class MyAdd extends React.Component{
+        constructor(props){
+            super(props)
+            this.state = {
+                i:0
+            }
+        }
+        getaddNum(data){
+            this.setState({
+                i:this.state.i + data
+            })
+        }
+        render(){
+            return (
+                <div>
+                    <Add1 addNum = {this.getaddNum.bind(this)} i = {this.state.i} />
+                </div>
+            )
+        }
+    }
+    class Add1 extends React.Component{
+        constructor(props){
+            super(props)
+        }
+        add(data){
+            return this.props.addNum(data)
+        }
+        static propTypes = {
+            i:PropTypes.number
+        }
+        render(){
+            return (
+                <div>
+                    <p>{this.props.i}</p>
+                    <button onClick = {this.add.bind(this,1)}>点击加1</button>
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(<MyAdd/>, document.getElementById('father'))
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+    <div id = "root">
+        <div id = "root1"></div>
+        <div id = "root2"></div>
+    </div>
+</body>
+<script type="text/babel">
+    let obj = {
+        type:"password",
+        name:"username",
+        placeholder:"请输入密码"
+    }
+    let color = {
+        color:'red',
+        fontSize:'30px'
+    }
+    let elemnt = <input {...obj} value ="53445"/>
+    let elemnt1 = <div style={color}>啊实打实大师的</div>
+    ReactDOM.render(elemnt,document.getElementById('root1'))
+    ReactDOM.render(elemnt1,document.getElementById('root2'))
+</script>
+</html>
