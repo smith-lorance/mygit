@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选择课程",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-mask": "/node-modules/uview-ui/components/u-mask/u-mask"
+  }
+}

@@ -1,0 +1,28 @@
+.ly-reg-main.data-v-9d575476 {
+  padding: 20rpx;
+  margin-top: 100rpx;
+}
+.ly-reg-main ._span.data-v-9d575476 {
+  color: #ff6600;
+}
+.ly-reg-main view.data-v-9d575476:last-child {
+  margin-top: 10rpx;
+  text-align: center;
+}
+.ly-reg-title.data-v-9d575476 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-reg-title view.data-v-9d575476:last-child {
+  color: #eee;
+  font-size: 0.8rem;
+}
+.ly-login-btn.data-v-9d575476 {
+  background-color: #ff6600;
+  color: #fff;
+}
+

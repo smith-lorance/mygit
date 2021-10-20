@@ -1,0 +1,44 @@
+.content {
+  padding: 24rpx;
+  text-align: center;
+}
+.ly-invite-wrapper {
+  padding: 0 40rpx;
+  background-color: #fff;
+}
+.ly-invite-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 20rpx;
+  margin-bottom: 20rpx;
+}
+.ly-group-user {
+  margin-right: 40rpx;
+}
+.ly-user-img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.ly-user-img image {
+  width: 100%;
+  height: 100%;
+}
+.ly-user-name {
+  text-align: center;
+}
+.ly-invite-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border: 1px dashed #ddd;
+  width: 100rpx;
+  height: 100rpx;
+}
+

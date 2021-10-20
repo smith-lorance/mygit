@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会话",
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

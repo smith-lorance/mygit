@@ -1,0 +1,46 @@
+.ly-reg-main.data-v-3829ad0c {
+  padding: 20rpx;
+  margin-top: 100rpx;
+}
+.ly-reg-main u-form-item.data-v-3829ad0c {
+  margin-bottom: 20rpx;
+}
+.ly-reg-title.data-v-3829ad0c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-reg-title view.data-v-3829ad0c:first-child {
+  font-size: 1.5rem;
+}
+.ly-reg-title view.data-v-3829ad0c:last-child {
+  color: #eee;
+  font-size: 0.8rem;
+}
+.ly-login-btn.data-v-3829ad0c {
+  background-color: #ff6600;
+  color: #fff;
+  margin-bottom: 20rpx;
+  border: none;
+}
+.ly-input.data-v-3829ad0c {
+  position: relative;
+}
+.ly-input .ly-code-btn.data-v-3829ad0c {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.ly-input .ly-code-btn button.data-v-3829ad0c {
+  color: #999999;
+  background-color: #eee;
+}
+.ly-set-btn button.data-v-3829ad0c:last-child {
+  background-color: #fff;
+  color: #999;
+  border: none;
+}
+

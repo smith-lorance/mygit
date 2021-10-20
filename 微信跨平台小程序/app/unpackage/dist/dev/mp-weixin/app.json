@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/login/identity",
+        "pages/login/reg",
+        "pages/login/setpwd",
+        "pages/index/index",
+        "pages/index/course",
+        "pages/index/vedio",
+        "pages/my/my",
+        "pages/chat/chat",
+        "pages/chat/list",
+        "pages/chat/group",
+        "pages/chat/invite",
+        "pages/chat/inviteuser",
+        "pages/my/database",
+        "pages/my/consume"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#363636",
+        "selectedColor": "#ffba4a",
+        "backgroundColor": "#f4f4f4",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "学习群",
+                "iconPath": "static/logo.png",
+                "selectedIconPath": "./static/logo.png"
+            },
+            {
+                "pagePath": "pages/chat/chat",
+                "text": "群聊",
+                "iconPath": "./static/logo.png",
+                "selectedIconPath": "./static/logo.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "./static/logo.png",
+                "selectedIconPath": "./static/logo.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "buybox": "/components/buybox"
+    },
+    "sitemapLocation": "sitemap.json"
+}

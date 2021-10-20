@@ -1,0 +1,107 @@
+.content.data-v-90703b7e {
+  padding-bottom: 60rpx;
+}
+.ly-chat-content.data-v-90703b7e {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background-color: #fff;
+  padding: 20rpx 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 10rpx 10rpx 50rpx;
+}
+.ly-chat-wrapper.data-v-90703b7e {
+  padding: 40rpx 40rpx;
+}
+.ly-chat-you.data-v-90703b7e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.ly-chat-imgyou.data-v-90703b7e {
+  margin-right: 40rpx;
+}
+.ly-chat-imgme.data-v-90703b7e {
+  margin-left: 40rpx;
+}
+.ly-chat-username.data-v-90703b7e {
+  max-width: 50%;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ly-chat-usermessage.data-v-90703b7e {
+  padding: 20rpx;
+  max-width: 80%;
+  background-color: #1cdf7b;
+  color: #fff;
+  border-radius: 20rpx;
+}
+.ly-chat-imgmessage.data-v-90703b7e {
+  padding: 20rpx;
+  max-width: 80%;
+  background-color: #1cdf7b;
+  color: #fff;
+  border-radius: 20rpx;
+}
+.ly-chat-imgmessage image.data-v-90703b7e {
+  width: 200rpx;
+}
+.ly-chat-me.data-v-90703b7e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  margin-bottom: 40rpx;
+}
+.ly-chat-useryou.data-v-90703b7e,
+.ly-chat-userme.data-v-90703b7e {
+  max-width: 80%;
+}
+.ly-chat-userme.data-v-90703b7e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.ly-content-left.data-v-90703b7e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 20rpx;
+}
+.ly-chat-img.data-v-90703b7e {
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+.ly-message-box.data-v-90703b7e {
+  padding: 0 10rpx;
+  font-size: 35rpx;
+}
+.ly-message-btn.data-v-90703b7e {
+  margin-right: 10rpx;
+  font-size: 35rpx;
+}
+

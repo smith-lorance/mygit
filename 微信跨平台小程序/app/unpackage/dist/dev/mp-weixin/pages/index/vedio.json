@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情页面",
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-mask": "/node-modules/uview-ui/components/u-mask/u-mask"
+  }
+}

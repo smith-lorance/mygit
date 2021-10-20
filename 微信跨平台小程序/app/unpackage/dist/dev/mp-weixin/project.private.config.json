@@ -1,0 +1,102 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/login/setpwd",
+                    "pathName": "pages/login/setpwd",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/login/setpwd",
+                    "pathName": "pages/login/setpwd",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/login/identity",
+                    "pathName": "pages/login/identity",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/login/reg",
+                    "pathName": "pages/login/reg",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/index",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/login/identity",
+                    "pathName": "pages/login/identity",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/login/login",
+                    "pathName": "pages/login/login",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/course",
+                    "pathName": "pages/index/course",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/course",
+                    "pathName": "pages/index/course",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/index/vedio",
+                    "pathName": "pages/index/vedio",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/chat/chat",
+                    "pathName": "pages/chat/chat",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/chat/group",
+                    "pathName": "pages/chat/group",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/chat/chat",
+                    "pathName": "pages/chat/chat",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/chat/list",
+                    "pathName": "pages/chat/list",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

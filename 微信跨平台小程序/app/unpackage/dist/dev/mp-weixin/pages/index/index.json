@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-mask": "/node-modules/uview-ui/components/u-mask/u-mask"
+  }
+}

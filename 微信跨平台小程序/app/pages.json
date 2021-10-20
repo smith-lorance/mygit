@@ -1,0 +1,128 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/login/identity"
+		},{
+			"path": "pages/login/reg",
+			"style":{
+				"navigationBarTitleText": "注册"
+			}
+		},{
+			"path": "pages/login/setpwd",
+			"style":{
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, 
+		{
+			"path": "pages/index/course",
+			"style": {
+				"navigationBarTitleText": "选择课程"
+			}
+		},
+		{
+			"path": "pages/index/vedio",
+			"style": {
+				"navigationBarTitleText": "详情页面"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "列表页"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "会话"
+			}
+		},
+		{
+			"path": "pages/chat/list",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/chat/group",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/chat/invite",
+			"style": {
+				"navigationBarTitleText": "聊天详情"
+			}
+		},
+		{
+			"path": "pages/chat/inviteuser",
+			"style": {
+				"navigationBarTitleText": "选择联系人"
+			}
+		},
+		{
+		    "path" : "pages/my/database",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/my/consume",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#363636",
+		"selectedColor": "#ffba4a",
+		"backgroundColor": "#f4f4f4",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "学习群",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "./static/logo.png"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"text": "群聊",
+				"iconPath": "./static/logo.png",
+				"selectedIconPath": "./static/logo.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/logo.png",
+				"selectedIconPath": "./static/logo.png"
+			}
+			
+		]
+	}
+}

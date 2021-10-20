@@ -1,0 +1,52 @@
+.ly-login-btn.data-v-f9179146 {
+  background-color: #ff6600;
+  color: #fff;
+}
+.ly-reg-main.data-v-f9179146 {
+  padding: 20rpx;
+  margin-top: 100rpx;
+}
+.ly-reg-main .select.data-v-f9179146 {
+  margin-top: 45rpx;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-size: 1.3rem;
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+}
+.ly-reg-main .activeSelect.data-v-f9179146 {
+  background-color: #f3b807;
+}
+.ly-reg-main .selec-buttom.data-v-f9179146 {
+  margin-top: 100rpx;
+  color: #fcfcfc;
+  background-color: #ffcf0e;
+  border-radius: 5px;
+}
+.ly-reg-main .selec-login.data-v-f9179146 {
+  margin-top: 60rpx;
+  background-color: #ffffff;
+  color: #616161;
+}
+.ly-reg-title.data-v-f9179146 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-reg-title view.data-v-f9179146:last-child {
+  margin-top: 10rpx;
+  text-align: center;
+  color: #a2a2a2;
+  font-size: 0.8rem;
+}
+.ly-reg-title view.data-v-f9179146:first-child {
+  font-size: 40rpx;
+  color: #2d2d2d;
+}
+

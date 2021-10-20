@@ -1,0 +1,21 @@
+.ly-login-wrapper.data-v-b237504c {
+  height: 100%;
+  margin-top: 200rpx;
+  padding: 20rpx;
+}
+.ly-login-wrapper .ly-login-text.data-v-b237504c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.ly-login-wrapper .ly-login-text view.data-v-b237504c:first-child {
+  color: #ff6600;
+}
+.ly-login-btn.data-v-b237504c {
+  background-color: #ff6600;
+  color: #fff;
+}
+
